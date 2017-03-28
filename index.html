@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.0.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css"  type="text/css">
+    <meta charset="utf-8">
+    <title>count</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Your count is:</h1>
+      <form id="count">
+        <div class="form-group">
+          <h1>Count</h1>
+          <label for="sentence">Count to:</label>
+          <input id="countTo" class="form-control" type="text">
+          <label for="sentence">Count by:</label>
+          <input id="countBy" class="form-control" type="text">
+          <hr>
+          <button id="submit" class="btn " type="submit">Submit</button>
+        </div>
+      </form>
+      <div>
+        <h3 id="notify"></h3>
+        <ul id="answer"></ul>
+      </div>
+    </div>
+
+  </body>
+</html>
